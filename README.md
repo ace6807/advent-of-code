@@ -5,8 +5,8 @@ My solutions to [Advent of Code](https://adventofcode.com).
 ### ⭐(4/50)
 | Day                                                                         | Status   | Solution |
 | --------------------------------------------------------------------------- | ---------| :--------: |
-| [❄️ Day 1: Sonar Sweep](https://adventofcode.com/2021/day/1)           | ⭐⭐    | [🎯](2021/day1) |
-| [❄️ Day 2: Dive!](https://adventofcode.com/2021/day/2)        | ⭐⭐    | [🎯](2021/day2) | 
+| [❄️ Day 1: Sonar Sweep](https://adventofcode.com/2021/day/1)                | ⭐⭐    | [🎯](2021/day1) |
+| [❄️ Day 2: Dive!](https://adventofcode.com/2021/day/2)                      | ⭐⭐    | [🎯](2021/day2) | 
 
 
 # 2022 
@@ -23,5 +23,5 @@ My solutions to [Advent of Code](https://adventofcode.com).
 ### ⭐(4/50)
 | Day                                                                         | Status   | Solution |
 | --------------------------------------------------------------------------- | ---------| :--------: |
-| [❄️ Day 1: Trebuchet?!](https://adventofcode.com/2023/day/1)           | ⭐⭐    | [🎯](2023/day1) |
-| [❄️ Day 2: Cube Conundrum](https://adventofcode.com/2023/day/2)        | ⭐⭐    | [🎯](2023/day2) | 
+| [❄️ Day 1: Trebuchet?!](https://adventofcode.com/2023/day/1)                | ⭐⭐    | [🎯](2023/day1) |
+| [❄️ Day 2: Cube Conundrum](https://adventofcode.com/2023/day/2)             | ⭐⭐    | [🎯](2023/day2) | 
