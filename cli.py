@@ -8,7 +8,7 @@ app = typer.Typer(no_args_is_help=True)
 
 
 @app.command(no_args_is_help=True)
-def main(year: int, day: int) -> str:
+def add_day(year: int, day: int) -> str:
     day_exists = file_operations.day_exists(day, year)
     if day_exists:
         print("Day already exists!")
