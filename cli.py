@@ -4,11 +4,11 @@ from typing import Dict, List
 import typer
 
 
-app = typer.Typer()
+app = typer.Typer(no_args_is_help=True)
 
 
-@app.command()
-def main(day: int, year: int = 2022) -> str:
+@app.command(no_args_is_help=True)
+def main(year: int, day: int) -> str:
     day_exists = file_operations.day_exists(day, year)
     if day_exists:
         print("Day already exists!")
