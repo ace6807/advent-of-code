@@ -2,11 +2,12 @@
 My solutions to [Advent of Code](https://adventofcode.com).
 
 # 2021
-### ⭐(4/50)
+### ⭐(5/50)
 | Day                                                                         | Status   | Solution |
 | --------------------------------------------------------------------------- | ---------| :--------: |
 | [❄️ Day 1: Sonar Sweep](https://adventofcode.com/2021/day/1)                | ⭐⭐    | [🎯](2021/day1) |
 | [❄️ Day 2: Dive!](https://adventofcode.com/2021/day/2)                      | ⭐⭐    | [🎯](2021/day2) | 
+| [❄️ Day 3: Binary Diagnostic](https://adventofcode.com/2021/day/3)          | ⭐      | [🎯](2021/day3) | 
 
 
 # 2022 
