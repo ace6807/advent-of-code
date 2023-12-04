@@ -25,11 +25,11 @@ def get_adjacents(point: Point, maxes: Point):
 def part1():
     lines = get_input()
 
-    symbols = []
+    symbols = dict()
     for line_no, line in enumerate(lines):
         for col_num, c in enumerate(line):
             if c != '.' and not c.isdigit():
-                symbols.append(Point(line_no, col_num))
+                symbols[Point(line_no, col_num)] = c
 
     part_num_stack = []
     for line_no, line in enumerate(lines):
@@ -57,8 +57,44 @@ def part1():
 
 
 def part2():
-    ...
+    lines = get_input()
 
+    symbols = dict()
+    for line_no, line in enumerate(lines):
+        for col_num, c in enumerate(line):
+            if c == '*' and not c.isdigit():
+                symbols[Point(line_no, col_num)] = []
+
+    part_num_stack = []
+    for line_no, line in enumerate(lines):
+        num_stack = []
+        found_symbols = set()
+        for col_num, c in enumerate(line):
+            if c.isdigit():
+                num_stack.append(c)
+                adjacent_positions = get_adjacents(Point(line_no, col_num), Point(len(lines[0]) - 1, len(lines) - 1))
+                found_symbols.update(set(pos for pos in adjacent_positions if (pos in symbols)))
+            else:
+                if num_stack and found_symbols:
+                    part_num = int("".join(num_stack))
+                    part_num_stack.append(part_num)
+                    for symbol in found_symbols:
+                        symbols[symbol].append(part_num)
+                
+                num_stack.clear()
+                found_symbols = set()
+        if num_stack:
+            # If we ran over the end of the line, see if the part number is valid and clean up
+            if found_symbols:            
+                part_num = int("".join(num_stack))
+                part_num_stack.append(part_num)
+                for symbol in found_symbols:
+                    symbols[symbol].append(part_num)
+
+                num_stack.clear()
+
+    total = sum([ symbols[symbol][0] * symbols[symbol][1] for symbol in symbols if len(symbols[symbol]) == 2 ])
+    print(total)
 
 if __name__ == "__main__":
     part1()
