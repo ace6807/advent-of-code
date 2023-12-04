@@ -21,9 +21,10 @@ My solutions to [Advent of Code](https://adventofcode.com).
 
 
 # 2023 
-### ⭐(6/50)
+### ⭐(8/50)
 | Day                                                                         | Status   | Solution |
 | --------------------------------------------------------------------------- | ---------| :--------: |
 | [❄️ Day 1: Trebuchet?!](https://adventofcode.com/2023/day/1)                | ⭐⭐    | [🎯](2023/day1) |
 | [❄️ Day 2: Cube Conundrum](https://adventofcode.com/2023/day/2)             | ⭐⭐    | [🎯](2023/day2) | 
 | [❄️ Day 3: Gear Ratios](https://adventofcode.com/2023/day/3)                | ⭐⭐    | [🎯](2023/day3) | 
+| [❄️ Day 4: Scratchcards](https://adventofcode.com/2023/day/4)               | ⭐⭐    | [🎯](2023/day4) | 
