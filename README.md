@@ -21,7 +21,7 @@ My solutions to [Advent of Code](https://adventofcode.com).
 
 
 # 2023 
-### ⭐(12/50)
+### ⭐(14/50)
 | Day                                                                                | Status   | Solution |
 | ---------------------------------------------------------------------------------- | ---------| :--------: |
 | [❄️ Day 1: Trebuchet?!](https://adventofcode.com/2023/day/1)                        | ⭐⭐    | [🎯](2023/day1) |
@@ -30,3 +30,4 @@ My solutions to [Advent of Code](https://adventofcode.com).
 | [❄️ Day 4: Scratchcards](https://adventofcode.com/2023/day/4)                       | ⭐⭐    | [🎯](2023/day4) | 
 | [❄️ Day 5: If You Give A Seed A Fertilizer](https://adventofcode.com/2023/day/5)    | ⭐⭐    | [🎯](2023/day5) | 
 | [❄️ Day 6: Wait For It](https://adventofcode.com/2023/day/6)                        | ⭐⭐    | [🎯](2023/day6) | 
+| [❄️ Day 7: Camel Cards](https://adventofcode.com/2023/day/7)                        | ⭐⭐    | [🎯](2023/day7) | 
