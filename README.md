@@ -21,7 +21,7 @@ My solutions to [Advent of Code](https://adventofcode.com).
 
 
 # 2023 
-### ⭐(20/50)
+### ⭐(21/50)
 | Day                                                                                | Status   | Solution |
 | ---------------------------------------------------------------------------------- | ---------| :--------: |
 | [❄️ Day 1: Trebuchet?!](https://adventofcode.com/2023/day/1)                        | ⭐⭐    | [🎯](2023/day1)  |
@@ -34,3 +34,4 @@ My solutions to [Advent of Code](https://adventofcode.com).
 | [❄️ Day 8: Haunted Wasteland](https://adventofcode.com/2023/day/8)                  | ⭐⭐    | [🎯](2023/day8)  | 
 | [❄️ Day 9: Mirage Maintenance](https://adventofcode.com/2023/day/9)                 | ⭐⭐    | [🎯](2023/day9)  | 
 | [❄️ Day 10: Pipe Maze](https://adventofcode.com/2023/day/10)                        | ⭐⭐    | [🎯](2023/day10) | 
+| [❄️ Day 11: Cosmic Expansion](https://adventofcode.com/2023/day/11)                 | ⭐      | [🎯](2023/day11) | 
