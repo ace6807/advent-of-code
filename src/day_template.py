@@ -1,3 +1,9 @@
+def get_input():
+    with open('2023/day1/sample.txt') as f:
+        lines = [i for i in f.read().splitlines()]
+    return lines
+
+
 def part1():
     ...
 
